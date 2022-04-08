@@ -27,4 +27,4 @@ last_4_digit_UMID   avg_spearman's_rank_correlation
 2. Do not include a header row 
 3. The leading column should be gene names (e.g., ENSGxxxxxxxx.xx)
 4. Do not output quotation marks for gene names
-
+5. Do not leave space delimiters in the submitted file's name
