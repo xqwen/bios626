@@ -21,10 +21,10 @@ last_4_digit_UMID   avg_spearman's_rank_correlation
 9932				-0.0005152 *
 ```
 
-\* indicates format errors in the submissions. Although I can manually correct some obvious format errors and generate the summary statistic, your submitted results may not be correctly interpreted. Please carefully check the following issues:
+\* indicates format errors in the submissions. Although I can manually correct some obvious format errors and generate the summary statistics, your submitted results may not be correctly interpreted. Please carefully check the following issues:
 
 1. the submitted file should contain 68 rows and 101 columns 
-2. Do not include a header 
+2. Do not include a header row 
 3. The leading column should be gene names (e.g., ENSGxxxxxxxx.xx)
-4. Do not use quotation marks for gene names
+4. Do not output quotation marks for gene names
 
