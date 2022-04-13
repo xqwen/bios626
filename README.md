@@ -5,7 +5,6 @@ Last update date: 7PM April 12, 2022
 Next update date: 7PM April 13, 2022
 
 
-
 ```
 last_4_digit_UMID   avg_spearman's_rank_correlation
 9824				0.8073077
@@ -13,6 +12,7 @@ last_4_digit_UMID   avg_spearman's_rank_correlation
 1129				0.8007221
 7549				0.7041521
 7636				0.6741959
+3136				0.6716284
 3028				0.6646716
 1200				0.6639606
 8502				0.6629745
