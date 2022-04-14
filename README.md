@@ -1,70 +1,77 @@
 ## BIOS 626 Midterm 1 Leaderboard
 
-Last update date: 7PM April 13, 2022
+Last update date: 7PM April 14, 2022
 
-Next update date: 7PM April 14, 2022 (Last update)
+Next update: Final Result 
 
 
 ```
 last_4_digit_UMID   avg_spearman's_rank_correlation
 9824				0.8073077
-0966				0.8026047
-1200				0.7964698
+1129				0.8007221
+0966				0.7976698
+1200				0.7953216
 6564				0.7770751
 0891				0.7511599
 4442				0.7163458
+7804				0.7041521
 7549				0.7041521
-6905				0.6933248
-7636				0.6865302
-1129				0.6743948
-7966				0.6738032
+6905				0.6933028
+8650				0.6913331
+8994				0.6829401
+7966				0.6753557
 3136				0.6716284
+0030				0.6692036
 0316				0.6663813
-8502				0.6623967
-0853				0.6603118
+3028				0.6646716
+0860				0.6644285
+3192				0.6633823
+2559				0.6630235
+5840				0.6618441
+5570				0.6615056
+7009				0.6609457
+0022				0.6606879
 0677				0.6602522
-6162				0.6596436
-3028				0.6592989
-7460				0.6584018
-5840				0.6583279
+7460				0.6596416
+7382				0.6590714
+6162				0.6589855
+2086				0.658944
 5728				0.6581946
+0729				0.6580376
 3507				0.6577347
-0860				0.657393
+8502				0.6576176
 1047				0.6560091
-2368				0.654226
+2368				0.6554773
 0584				0.6540629
-7742				0.6539754
-9192				0.6538595
+3112				0.6538409
 6929				0.6531546
 2169				0.6527643
+4340				0.6516765
+9192				0.6505469
+9112				0.6500305
 8641				0.6478204
-8085				0.6464825
+8480				0.6466862
+7710				0.6464086
+1732				0.6463913
 9932				0.6462419
-1732				0.6436912
-3013				0.6429707
+8085				0.6434887
+0256				0.6432781
 4460				0.6420985
-2086				0.6393594
-5225				0.6362392
-7710				0.635699
-8480				0.6356461
+3414				0.6409753
+8727				0.6396812
 6201				0.6318841
-1081				0.6307213
-1147				0.6305765
-9112				0.6087098
-2559				0.6023392
-7804				0.6022752
-0729				0.6022106
-7122				0.6007869
-7382				0.5766889
+7122				0.6286383
+5253				0.6251244
+3013				0.621984
+5225				0.6153623
+1147				0.6123687
+1081				0.6022053
 3911				0.5764498
+7636				0.5467211
 3045				0.5410776
-0030				0.5249649
-5036				0.4866173
+7742				0.528709
 4137				0.486125
-4340				0.2579006
-7009				0.06387668
-3414				0.02135594
-```
+``
 
 If you have submitted an entry but can't find it on the current board, it is due to errors in your submission. Carefully check the following issues: 
 
@@ -74,7 +81,7 @@ If you have submitted an entry but can't find it on the current board, it is due
 4. Do not output quotation marks for gene names
 5. Do not leave space delimiters in the submitted file's name
 
-Another reason is that you may have invalid predictions for at least one gene.
+Another reason is that you may have invalid predictions for at least one gene. Note that because we are using rank correlation to measure accuracy, for any given gene, it is invalid that all individual having the same value. 
 
 Make sure that you only submit one entry to the Canvas. Additional submissions will be ignored.
 
