@@ -1,78 +1,33 @@
-## BIOS 626 Midterm 1 Leaderboard
+# Human Activity Recognition using Wearable Sensor Technology 
 
-Final Leaderboard
 
-```
-last_4_digit_UMID   avg_spearman's_rank_correlation
-9824				0.8073077
-0966				0.8026047
-1129				0.8007221
-1200				0.7964698
-6564				0.7770751
-0891				0.7511599
-6905				0.7498766
-4442				0.7163458
-7382				0.6979062
-1147				0.6930445
-8650				0.6913331
-7636				0.6865302
-8994				0.6857305
-7966				0.6753557
-3136				0.6716284
-0030				0.6692036
-0316				0.6663813
-3028				0.6646716
-0860				0.6644285
-3192				0.6633823
-2559				0.6630235
-8502				0.6629745
-5840				0.6618441
-2368				0.6617925
-4340				0.6616763
-2086				0.6615056
-7549				0.6613556
-7009				0.6609457
-0022				0.6606879
-0853				0.6604122
-0677				0.6602522
-3013				0.6599386
-6162				0.6596436
-7460				0.6596416
-7768				0.6595161
-5570				0.6593967
-7742				0.6589999
-6588				0.6585447
-7804				0.6582008
-5728				0.6581946
-0729				0.6580376
-5036				0.6579644
-3507				0.6577347
-3414				0.6571688
-3112				0.6565452
-1047				0.6560091
-0584				0.6540629
-9192				0.6538595
-6929				0.6531546
-2169				0.6527643
-9112				0.6500305
-1081				0.6492767
-8641				0.6470138
-8480				0.6466862
-7710				0.6464086
-1732				0.6463913
-9932				0.6462419
-8085				0.6433618
-0256				0.6432781
-4460				0.6420985
-8727				0.6396812
-5225				0.6362392
-6201				0.6318841
-7122				0.6286383
-3045				0.6258199
-5253				0.6251244
-3911				0.6228661
-4137				0.5434799
-1283				0.532295
-3121				0.5239852
-```
+
+
+
+## Experiment design and data collection
+
+A group of volunteers, aged between 19 and 48, are recruited to participate in the experiment. They performed a protocol consisting of six activities: three static postures (standing, sitting, lying) and three dynamic activities (walking, walking downstairs, and walking upstairs). The experiment also recorded postural transitions that occurred between the static postures. These are: stand-to-sit, sit-to-stand, sit-to-lie, lie-to-sit, stand-to-lie, and lie-to-stand. All participants wore a smart device on the waist during the experiment. It captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz using the embedded accelerometer and gyroscope of the device. In this context, the activities are considered outcomes, and the signals measured by the smart device are considered features. 
+
+
+## Data pre-processing and description
+
+The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low-frequency components. Therefore a filter with a 0.3 Hz cutoff frequency was used. From each window, a vector of 561 features was obtained by calculating variables from the time and frequency domain. The details of the 561 features are described in files ``data/data_dictionary.txt`` and ``data/feature_info.txt``.
+
+
+
+## Data files 
+
+Two tab-delimited text files ``data/training_data.txt`` and ``data/test_data.txt`` are provided. The training data (labeled activity information included) should be used to construct and test your ML algorithms. Apply your algorithm to the test data (containing only feature information) and predict the activity corresponding to each time window.
+
+
+
+
+## Learning tasks
+
+1. Build a binary classifier to classify the activity of each time window into static (0) and dynamic (1).
+2. Build a refined multi-class classifier to classify walking (1), walking_upstairs (2), walking_downstairs (3), sitting (4), standing (5), lying (6), and static postural transition (7)
+
+
+
+
 
