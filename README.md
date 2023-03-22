@@ -24,7 +24,7 @@ Two tab-delimited text files ``data/training_data.txt`` and ``data/test_data.txt
 
 ## Learning tasks
 
-1. Build a binary classifier to classify the activity of each time window into static (0) and dynamic (1).
+1. Build a binary classifier to classify the activity of each time window into static (0) and dynamic (1). For this task, consider postural transitions as static (0). 
 2. Build a refined multi-class classifier to classify walking (1), walking_upstairs (2), walking_downstairs (3), sitting (4), standing (5), lying (6), and static postural transition (7)
 
 
@@ -33,7 +33,7 @@ Two tab-delimited text files ``data/training_data.txt`` and ``data/test_data.txt
 
 1. create a submission ID (SID) that you can identify yourself from the leaderboard. The ID should not include space or special characters, just alphbet letters and numbers. For example, you can use the last 4-digit of your umid.
 2. create two text files for the two learning tasks. The binary classification result should be named "binary\_SID.txt", and the multiclass classification result should be name "multiclass\_SID.txt". Any format other than text format will *NOT* be accepted.
-3. format the correpsonding classification results into a single column. In total, there should 3,162 rows in each submitted file. Importantly, do not inlcude any header and the order of the classification results should be *exactly the same* as the order of the subject features shown in the ``test_data```. 
+3. format the correpsonding classification results into a single column. In total, there should be 3,162 rows in each submitted file. Importantly, do not inlcude any header and the order of the classification results should be *exactly the same* as the order of the subject features shown in the ``test_data``. 
 4. carefully check the names and the format of your two submission files. Submit through the Canvas. 
 
 You can submit as many times as you like. The leaderboard will show the evaluation of your most recent results by the release time, i.e., your new submission will overwrite your old results. The release of the Leaderboard is scheduled on every Tuesday and Friday until April 14,2023.
