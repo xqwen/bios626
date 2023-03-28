@@ -1,6 +1,6 @@
 # Leaderboard: Multi-class Classification Task
 
-Last update: 6 PM, 03/24/2023  
+Last update: 6 PM, 03/28/2023  
 
 ```
            SID       Accuracy 
